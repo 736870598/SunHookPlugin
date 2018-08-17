@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World! plugin" />
+
+        <TextView
+            android:id="@+id/registerBroad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="注册广播"
+            android:drawableLeft="@mipmap/ic_launcher"/>
+
+        <Button
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:text="发送动态注册广播"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/staticView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发送静态注册广播"
+            android:drawableLeft="@mipmap/ic_launcher"/>
+
+        <Button
+            android:id="@+id/showToast"
+            android:layout_width="match_parent"
+            android:text="显示toast"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/setResult"
+            android:layout_width="match_parent"
+            android:text="返回 99 "
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/startService"
+            android:layout_width="match_parent"
+            android:text="开启服务"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/toOtherActivity"
+            android:layout_width="match_parent"
+            android:text="打开activity"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>
